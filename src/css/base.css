@@ -25,7 +25,8 @@ body {
 }
 
 .section {
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,7 +37,8 @@ body {
     }
 
     .section {
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -48,7 +50,8 @@ body {
     }
 
     .section {
-        padding-bottom: 150px;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 }
 
