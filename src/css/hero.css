@@ -1,0 +1,162 @@
+/* ==================== HERO Mobile style ====================  */
+
+.hero-wrapper {
+  display: flex;
+  position: relative;
+  color: #fcf9f9;
+}
+
+.hero-title-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 335px;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23; /* 122.727% */
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+
+.hero-title-span {
+  color: #ecd979;
+}
+
+.hero-anchor {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  width: 155px;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(-10%);
+}
+
+.hero-icon-arrow {
+  fill: #ecd979;
+  margin-left: 10px;
+}
+
+.hero-anchor:hover,
+.hero-anchor:focus {
+  border: 1px solid #ecd979;
+}
+
+.hero-image-main {
+  border-radius: 4px;
+}
+
+.hero-star-box {
+  display: none;
+}
+
+.hero-image-second {
+  display: none;
+}
+
+/* ==================== /HERO Mobile style ====================  */
+
+/* ==================== HERO Tablet style ====================  */
+
+@media screen and (min-width: 768px) {
+  .hero-wrapper {
+    justify-content: space-between;
+  }
+
+  .hero-title-image-wrapper {
+    flex-basis: 549px;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    line-height: 1.19; /* 118.519% */
+    margin-bottom: 40px;
+  }
+
+  .hero-image-main {
+    width: 413px;
+  }
+
+  .hero-anchor {
+    font-size: 16px;
+    transform: translateX(-35%);
+  }
+
+  .hero-star-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+    flex-basis: 115px;
+    flex-shrink: 0;
+  }
+
+  .hero-star-icon {
+    fill: #ecd979;
+  }
+  .hero-star-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-image-second {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+/* ==================== /HERO Tablet style ====================  */
+
+/* ==================== HERO Desktop-1280 style ====================  */
+
+@media screen and (min-width: 1280px) {
+  .hero-title-image-wrapper {
+    flex-basis: 100%;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    column-gap: 40px;
+  }
+
+  .hero-title-box {
+    width: 518px;
+  }
+
+  .hero-image-main {
+    width: 392px;
+  }
+
+  .hero-anchor {
+    transform: translateX(-25%);
+  }
+}
+
+/* ==================== /HERO Desktop-1280 style ====================  */
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    font-size: 64px;
+    line-height: 1.16; /* 115.625% */
+  }
+
+  .hero-anchor {
+    transform: translateX(-20%);
+  }
+}
