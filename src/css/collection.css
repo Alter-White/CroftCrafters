@@ -1,0 +1,12 @@
+@media screen and(min-width:320){
+.collection{
+        color: #FCF9F9;
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1,375;
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
+}
+}
+    
