@@ -89,6 +89,9 @@
 
   .hero-anchor {
     font-size: 16px;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
     transform: translateX(-35%);
   }
 
@@ -169,13 +172,21 @@
 
 /* ==================== /HERO Desktop-1280 style ====================  */
 
+/* ==================== HERO Desktop-1440 style ====================  */
+
 @media screen and (min-width: 1440px) {
+  .hero-title-box {
+    width: 630px;
+  }
+
   .hero-title {
     font-size: 64px;
     line-height: 1.16; /* 115.625% */
   }
 
   .hero-anchor {
-    transform: translateX(-20%);
+    transform: translateX(-60%);
   }
 }
+
+/* ==================== /HERO Desktop-1440 style ====================  */
