@@ -24,6 +24,10 @@
   align-items: center;
 }
 
+.header-navigation {
+  flex-shrink: 0;
+}
+
 .logo-image {
   fill: #ECD979;
 }
@@ -70,10 +74,25 @@
 /* ============== CURTAIN MOBILE ============== */
 
 @media screen and (max-width: 1279px) {
+
+  .backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999999998;
+  width: 0;
+  max-width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.50);
+  transition: 200ms linear;
+  }
+
+
   .overlay {
     position: fixed;
     top: 0;
     right: 0;
+    width: 0;
     max-width: 274px;
     height: 100%;
     z-index: 99999999999;
