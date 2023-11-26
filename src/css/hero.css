@@ -42,11 +42,13 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateX(-10%);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .hero-icon-arrow {
   fill: #ecd979;
   margin-left: 10px;
+  height: 49px;
 }
 
 .hero-anchor:hover,
