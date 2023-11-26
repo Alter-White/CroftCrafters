@@ -15,16 +15,16 @@
     rel="stylesheet">
   
   <script type="module" crossorigin src="/CroftCrafters/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/CroftCrafters/assets/index-a1cc1f1f.css">
+  <link rel="stylesheet" href="/CroftCrafters/assets/index-a8541767.css">
 </head>
 
 <body>
   <header class="header">
   <div class="container header-container">
     <nav class="header-navigation"> 
-        <a class="header-logo" href="../index.html">
+        <a class="header-logo" href="./index.html">
         <img class="logo-image" 
-        src="../img/logo.svg" 
+        src="/CroftCrafters/assets/logo-06884754.svg" 
         alt="vyshyvanka logo" width="44">
       </a>
       <ul class="header-menu">
@@ -52,28 +52,28 @@
         <li class="header-social-item">
           <a class="header-social-link" href="https://www.facebook.com/goITclub/">
             <svg class="header-social-icon" width="28" height="28" aria-label="facebook icon">
-              <use href="../img/icons.svg#icon-facebook"></use>
+              <use href="/CroftCrafters/assets/icons-25607ed7.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
         <li class="header-social-item">
           <a class="header-social-link" href="https://www.instagram.com/goitclub/">
             <svg class="header-social-icon" width="28" height="28" aria-label="instagram icon">
-              <use href="../img/icons.svg#icon-instagram"></use>
+              <use href="/CroftCrafters/assets/icons-25607ed7.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="header-social-item">
           <a class="header-social-link " href="https://www.youtube.com/c/GoIT">
             <svg class="header-social-icon" width="28" height="28" aria-label="youtube icon">
-              <use href="../img/icons.svg#icon-youtube"></use>
+              <use href="/CroftCrafters/assets/icons-25607ed7.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
       </ul>
       <button class="burger-menu-btn" type="button" onclick="openNav()">
         <svg class="burger-icon" width="36" height="24">
-          <use href="../img/icons.svg#icon-nav"></use>
+          <use href="/CroftCrafters/assets/icons-25607ed7.svg#icon-nav"></use>
         </svg>
       </button>
     </div>
@@ -83,7 +83,8 @@
 
 
 <!-- CURTAIN -->
-<div class="overlay" id="curtain">
+<div class="backdrop" id="backdrop">
+  <div class="overlay" id="curtain">
   <div class="overlay-container">
     <div class="overlay-first-row">
       <address class="overlay-contacts">
@@ -94,39 +95,43 @@
       onclick="closeNav()"  
       type="button">
         <svg class="close-button-icon" width="36" height="36" aria-label="modal close button">
-          <use href="../img/icons.svg#icon-close"></use>
+          <use href="/CroftCrafters/assets/icons-25607ed7.svg#icon-close"></use>
         </svg>
       </button>
     </div>
     <nav class="overlay-nav">
       <ul class="overlay-menu">
         <li class="overlay-menu-item">
-          <a class="overlay-menu-link" href="#about-us">About us</a>
+          <a class="overlay-menu-link" href="./index.html#about-us">About us</a>
         </li>
         <li class="overlay-menu-item">
-          <a class="overlay-menu-link" href="#collection">Our collection</a>
+          <a class="overlay-menu-link" href="./index.html#collection">Our collection</a>
         </li>
         <li class="overlay-menu-item">
-          <a class="overlay-menu-link" href="#your-order">Customer order</a>
+          <a class="overlay-menu-link" href="./index.html#your-order">Customer order</a>
         </li>
         <li class="overlay-menu-item">
-          <a class="overlay-menu-link" href="#testimonials">Testimonials</a>
+          <a class="overlay-menu-link" href="./index.html#testimonials">Testimonials</a>
         </li>
       </ul>
     </nav>
     <div class="overlay-background">    
     </div>
   </div>
+  </div>
 </div>
 
 
 <script>
-  function openNav() {
-    document.getElementById("curtain").style.width = "100%";
-  }
-  function closeNav() {
-    document.getElementById("curtain").style.width = "0%";
-  }
+    function openNav() {
+      document.getElementById("backdrop").style.width = "100%";
+      document.getElementById("curtain").style.width = "100%"; 
+      }
+
+      function closeNav() {
+        document.getElementById("backdrop").style.width = "0%";
+        document.getElementById("curtain").style.width = "0%";
+      }
 </script>
   <main>
     <section class="hero container section">
