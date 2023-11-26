@@ -1,0 +1,96 @@
+
+/*------- MOBILE TESTIMONIALS------- */
+.testimonials-title {
+color: #FCF9F9;
+    font-family: inherit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+.testimonials-list {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+gap: 20px;
+
+}
+.testimonials-item {
+display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 24px;
+}
+.second-review {
+    display: none;
+}
+.third-review {
+    display: none;
+}
+.testimonials-icon-box {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    position: absolute;
+    top: -24px;
+}
+.testimonials-review-box {
+display: flex;
+    width: 335px;
+    padding: 60px 18px 18px 18px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
+.testimonials-review-title {
+color: #FCF9F9;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.testimonials-review-text {
+color: rgba(252, 249, 249, 0.40);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* -------TABLET TESTIMOLIALS------- */
+@media screen and (min-width: 768px) {
+.testimonials-list {
+flex-direction: row;
+justify-content: center;
+gap: 32px;
+}
+.testimonials-item {
+    width: calc((100% - 32px) / 2);
+}
+.testimonials-review-box {
+    width: 100%;
+}
+.second-review {
+    display: flex;
+}
+}
+/* -------DESCKTOP TESTIMONIALS------- */
+@media screen and (min-width: 1280px) {
+.testimonials-item {
+    width: calc((100% - 56px) / 3);
+}
+.third-review {
+display: flex;
+}
+.testimonials-list {
+gap: 26px;
+}
+}
