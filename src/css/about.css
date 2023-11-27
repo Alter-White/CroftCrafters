@@ -1,0 +1,159 @@
+img {
+  display: block;
+  }
+/* ============== ABOUT MOBILE STYLES ============== */
+
+.about-title {
+color: #FCF9F9;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.38; /* 137.5% */
+letter-spacing: -0.03;
+margin-bottom: 40px;
+}
+
+.about-paragraf-f {
+color: rgba(252, 249, 249, 0.40);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04;
+margin-bottom: 20px;
+}
+
+.about-paragraf-s {
+color: rgba(252, 249, 249, 0.40);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04;
+}
+
+.about-image {
+border-radius: 4px;
+background: lightgray -100.708px -21.583px / 148.246% 132.699% no-repeat;
+margin-top: 50px;
+height: 100%;
+}
+
+.about {
+position: relative;
+}
+
+.about-cont {
+margin: 0 auto;
+width: 100%;
+background-image: url(../img/about-background-mobile.png);
+background-repeat: no-repeat; 
+background-position: right bottom;
+padding-bottom: 62px;
+}
+
+@media screen and (min-resolution: 192pdi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .about-cont {
+background-image: url(../img/about-background-mobile@2x.png);
+background-size: 250px;
+}
+  }
+
+/* ============== ABOUT MOBILE STYLES ============== */
+
+/* ============== ABOUT TABLET STYLES ============== */
+@media screen and (min-width: 768px) { 
+  
+.about-title {
+font-size: 44px;
+line-height: 1.45;
+}
+
+.about-paragraf-f {
+font-size: 16px;
+}
+
+.about-paragraf-s {
+font-size: 16px;
+margin-bottom: 50px;
+}
+
+.about-image {
+background: lightgray 50% / cover no-repeat;
+height: auto;
+}
+
+.about-cont {
+padding-bottom: 50px;
+background-image: url(../img/about-background-tablet.png);
+}
+}
+
+@media screen and (min-resolution: 192pdi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+ .about-cont {
+  background-image: url(../img/about-background-tablet@2x.png);
+  background-size: 369px;
+      }
+  }
+/* ============== ABOUT TABLET STYLES ============== */ 
+
+
+/* ============== ABOUT DESKTOP STYLES-1280 ============== */
+@media screen and (min-width: 1280px) {
+  
+.about{
+  height: 100%;
+}  
+
+.about-title {
+line-height: 1.38;
+margin-top: 45.5px;
+}
+
+.about-image {
+margin-top: 0;
+margin-left: 50px;
+}
+
+.about-cont {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+background-image: url(../img/about-background-desktop1280.png);
+height: 100%;
+}
+.about-paragraf-s {
+  padding-bottom: 46px;
+}
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+.about-cont {
+  background-image: url(../img/about-background-desktop1280@2x.png);
+  background-size: 385px;
+      }    
+}
+/* ============== ABOUT DESKTOP STYLES-1280 ============== */
+
+
+/* ============== ABOUT DESKTOP STYLES-1440 ============== */
+@media screen and (min-width: 1440px) {
+.about-cont {
+  background-image: url(../img/about-background-desktop1440.png);
+}
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+.about-cont {
+  background-image: url(../img/about-background-desktop1440@2x.png);
+  background-size: 545px;
+      }    
+}
+/* ============== ABOUT DESKTOP STYLES-1440 ============== */
