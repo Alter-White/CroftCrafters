@@ -109,6 +109,10 @@ background-image: url(../img/about-background-tablet.png);
   height: 100%;
 }  
 
+.about-text-wrap {
+  max-width: 436px;
+}
+
 .about-title {
 line-height: 1.38;
 margin-top: 45.5px;
@@ -146,6 +150,10 @@ height: 100%;
 @media screen and (min-width: 1440px) {
 .about-cont {
   background-image: url(../img/about-background-desktop1440.png);
+}
+
+.about-text-wrap {
+  max-width: 481px;
 }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
