@@ -15,7 +15,6 @@ display: flex;
 align-items: flex-start;
 flex-direction: column;
 gap: 20px;
-
 }
 .testimonials-item {
 display: flex;
@@ -65,6 +64,8 @@ color: rgba(252, 249, 249, 0.40);
     font-weight: 400;
     line-height: normal;
 }
+
+
 /* -------TABLET TESTIMOLIALS------- */
 @media screen and (min-width: 768px) {
 .testimonials-list {
