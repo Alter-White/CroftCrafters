@@ -1,0 +1,557 @@
+
+@media screen and (min-width: 320px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .order-background {
+        min-width: 335px;
+        padding-left: 0;
+        padding-right: 0;
+
+     }
+}
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 0 auto;
+
+    }
+    .order.section {
+        padding-bottom: 0;
+    }
+    
+    .order-background {
+        position: relative;
+        width: 100%;
+        max-width: 375px;
+        min-height: 550px;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0 auto;
+        background-origin: content-box; 
+     }
+      .order-background::before {
+        position: absolute;
+        content: '';
+        display: block;
+        background-image: url("../img/order-green-back-mobile.jpg");
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+      screen and (min-resolution: 2dppx) and (max-width: 767px),
+      screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+          .order-background::before {
+              background-image: url("../img/order-green-back-mobile@2x.jpg");
+          }
+        }
+    
+    .order--background-ornament {
+        display: none;
+    }
+   .order-form-send {
+    max-width: 375px;
+    margin: 0 auto;
+
+   }
+    .order-field {
+        max-width: 375px;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    
+    .order-img {
+        display: none;
+    }
+    .order-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 375px;
+        margin: 0 auto;
+
+    }
+    .order-form-wrapper:not(:last-child) {
+        margin-bottom: 20px;
+        
+    }
+
+.order-form-description  {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+    color: #FCF9F9;
+    margin-bottom:  40px;
+    max-width: 375px;
+    
+}
+.order-span {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38; 
+    letter-spacing: -0.03em;
+    color: #ECD979;
+}
+.order-form-wrapper {
+    display: flex;
+    max-width: 335px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+    gap: 8px;
+}
+.order-form-field {
+    display: flex;
+    padding: 14px 16px;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 375px;
+    height: 47px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    box-sizing: border-box;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-form-messege {
+    align-items: flex-start;
+    width: 375px;
+    height: 196px;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 14px 16px;
+    background-color: transparent;
+    outline: transparent;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-form-field:hover, .order-form-messege:hover,
+.order-form-field:focus, .order-form-messege:focus {
+    border-color: #FCF9F9;
+    color: #FCF9F9;
+    outline-color: transparent;
+    outline-offset: 4px;
+   
+}
+
+.order-form-btn {
+    display: flex;
+    width: 145px;;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    margin: 0 auto;
+    stroke-width: 1px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #FCF9F9;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-form-btn-icon {
+    fill: #ECD979; 
+}
+.order-form-btn:hover,
+.order-form-btn:focus {
+    border-color: #ECD979;
+    color: #FCF9F9;
+    outline-color: transparent;
+    outline-offset: 4px;
+    
+    box-shadow: 3px 7px 4px 0px rgba(0, 0, 0, 0.25);
+   
+}
+
+    .order-field {
+        width: 375px;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    
+    .order-img {
+        display: none;
+    }
+    .order-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 375px;
+        margin: 0 auto;
+
+    }
+    .order-form-wrapper:not(:last-child) {
+        margin-bottom: 20px;
+        
+    }
+
+
+
+
+
+}
+    
+/* ============== /ORDER MOBILE ============= */
+
+/* ============== ORDER TABLET ============= */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-right: 0;
+    }
+
+    .order-background {
+        position: relative;
+        min-height: 776px;
+        background-color: #1C2225;
+        padding-right: 0;
+        padding-left: 0;
+      }
+      .order-background::before {
+        position: absolute;
+        content: '';
+        display: block;
+        background-image: url("../img/order-green-back-tablet.jpg");
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      @media screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx),
+      screen and (min-device-pixel-ratio: 2) {
+          .order-background::before {
+              background-image: url("../img/order-green-back-tablet@2x.jpg");
+          }
+        }
+        
+    
+.order {
+    position: relative;
+}
+    
+.order-field {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 958px;
+        padding-top: 100px;
+        margin: 0 auto;
+        }
+.order-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+           
+        }
+        .order-form-wrapper:not(:last-child) {
+            margin-bottom: 20px;
+            
+        }
+      
+        .order-form-description {
+            font-family: Manrope;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.32; 
+            letter-spacing: -0.03px;
+            color: #FCF9F9;
+            margin-bottom: 40px;
+            justify-content: flex-start;
+            width: 542px;
+        }
+       
+        .order-span {
+            font-family: Manrope;
+            font-size: 44px;
+            font-weight: 500;
+            line-height: 1.38; 
+            letter-spacing: -0.03em;
+            color: #ECD979;
+        }
+        
+        .order-form-field {
+            display: flex;
+            padding: 14px 16px;
+            align-items: flex-start;
+            align-self: stretch;
+            width: 508px;
+            height: 50px;
+            border-radius: 15px;
+            border: 1px solid rgba(252, 249, 249, 0.10);
+            background-color: transparent;
+            box-sizing: border-box;
+            outline: transparent;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .order-form-messege {
+            align-items: flex-start;
+            width: 375px;
+            height: 196px;
+            gap: 8px;
+            flex: 1 0 0;
+            align-self: stretch;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 14px 16px;
+            background-color: transparent;
+            outline: transparent;
+            border: 1px solid rgba(252, 249, 249, 0.10);
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .order-form-field:hover, .order-form-messege:hover,
+        .order-form-field:focus, .order-form-messege:focus {
+            border-color: #FCF9F9;
+            color: #FCF9F9;
+            outline-color: transparent;
+            outline-offset: 4px;
+            box-shadow: 3px 7px 4px 0px rgba(0, 0, 0, 0.25);
+           
+        }
+        
+        .order-form-btn {
+            display: flex;
+            width: 168px;;
+            height: 49px;
+            padding: 14px 39px;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            gap: 10px;
+            border-radius: 15px;
+            border: 1px solid rgba(252, 249, 249, 0.10);
+            stroke-width: 1px;
+            font-family: Manrope;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            color: #FCF9F9;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            margin-bottom: 100px;
+        }
+        
+        .order-form-btn-icon {
+            fill: #ECD979; 
+        }
+        .order-form-btn:hover,
+        .order-form-btn:focus {
+            border-color: #ECD979;
+            color: #FCF9F9;
+            outline-color: transparent;
+            outline-offset: 4px;
+            
+        }
+        .order-form-wrapper {
+            display: flex;
+            max-width: 508px;
+            margin-bottom: 50px;
+            align-items: flex-start;
+            gap: 8px;
+            flex: 1 0 0;
+            align-self: stretch;
+        }
+        .order-vyshyvanka-img {
+            width: 638px;
+            height: 521px;
+            position: bottom 79px right 32px;
+            flex-shrink: 0;
+            border-radius: 4px;
+        }
+        .order-background-ornament {
+            position: absolute;
+            display: block;
+            background-image: url("../img/order-background-tablet.png");
+            width: 323px;
+            height: 484px;
+            background-repeat: no-repeat;
+            background-position: buttom 0 left 0;
+          }
+          @media screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx),
+          screen and (min-device-pixel-ratio: 2) {
+              .order-background-ornament {
+                  background-image: url("../img/order-background-tablet@2x.png");
+              }
+            }    
+
+
+
+
+
+
+
+
+
+
+   
+}
+/* ============== /ORDER TABLET ============= */
+/* ============== ORDER DESKTOP 1280 ============= */
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .order-field {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        row-gap: 50px;
+        flex-wrap: nowrap;
+        padding-top: 100px;
+        margin: 0 auto;
+        }
+        .order-background {
+            position: relative;
+            min-height: 776px;
+            background-color: #1C2225;
+            padding-right: 0;
+            padding-left: 0;
+          }
+          .order-background::before {
+            position: absolute;
+            content: '';
+            display: block;
+            background-image: url("../img/order-green-back-desktop1280.jpg");
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+          @media screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx),
+          screen and (min-device-pixel-ratio: 2) {
+              .order-background::before {
+                  background-image: url("../img/order-green-back-desktop1280@2x.jpg");
+              }
+            }
+
+            .order-vyshyvanka-img {
+                position: top 0 right 0;
+                flex-shrink: 0;
+                border-radius: 4px;
+            }
+            .order-background-ornament {
+                position: absolute;
+                display: block;
+                background-image: url("../img/order-background-desktop1280.png");
+                width: 289px;
+                height: 521px;
+                background-repeat: no-repeat;
+                background-position: top 0 left 0;
+              }
+              @media screen and (min-resolution: 192dpi),
+              screen and (min-resolution: 2dppx),
+              screen and (min-device-pixel-ratio: 2) {
+                  .order-background-ornament {
+                      background-image: url("../img/order-background-desktop1280@2x.png");
+                  }
+                }    
+    
+    
+               
+    
+
+}
+/* ============== /ORDER DESKTOP 1280 ============= */
+
+/* ============== ORDER DESKTOP 1440 ============= */
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+     
+          .order-background::before {
+            position: absolute;
+            content: '';
+            display: block;
+            background-image: url("../img/order-green-back-desktop1440.jpg");
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+          @media screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx),
+          screen and (min-device-pixel-ratio: 2) {
+              .order-background::before {
+                  background-image: url("../img/order-green-back-desktop1440@2x.jpg");
+              }
+            }
+
+            .order-vyshyvanka-img {
+                position: bottom 79px right 32px;
+                flex-shrink: 0;
+                border-radius: 4px;
+            }
+            .order-background-ornament {
+                position: absolute;
+                display: block;
+                background-image: url("../img/order-background-desktop1440.png");
+                width: 325px;
+                height: 484px;
+                background-repeat: no-repeat;
+                background-position: top 0 left 0;
+              }
+              @media screen and (min-resolution: 192dpi),
+              screen and (min-resolution: 2dppx),
+              screen and (min-device-pixel-ratio: 2) {
+                  .order-background-ornament {
+                      background-image: url("../img/order-background-desktop1440@2x.png");
+                  }
+                }    
+
+
+
+    .order-form-description {
+        width: 666px;
+    }
+
+
+
+
+
+
+}
+
+
+
+/* ============== /ORDER DESKTOP 1440 ============= */
