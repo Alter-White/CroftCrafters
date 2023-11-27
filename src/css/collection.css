@@ -1,5 +1,6 @@
 .collection-list {
     background-color: #1C2225;
+   
 }
 
 .collection {
@@ -104,7 +105,7 @@
         .vyshyvanka-background {
             background-image: url(../img/collection1-background-mobile@2x.png);
             background-repeat: no-repeat;
-            background-position: left 300px;
+            background-position: left 270px;
             background-size: auto 177px;
         
             }
@@ -123,7 +124,7 @@
             background-image: url(../img/collection1-background-tablet@2x.png);
             background-repeat: no-repeat;
             background-position: left 300px;
-            background-size: auto 177px;
+            background-size: auto 338px;
         }
 
     }
@@ -135,8 +136,11 @@
         .vyshyvanka-background{
             background-image: url(../img/collection1-background-desktop1280@2x.png);
             background-repeat: no-repeat;
-            background-position: left 200px;
+            background-position: left 150px;
             background-size: auto 300px;
+        }
+        .collection-list{
+            flex-basis: calc((100% - 40px) / 3);
         }
     }
     @media screen and (min-width: 1440px) {
@@ -144,7 +148,9 @@
             background-image: url(../img/collection1-background-desktop1440@2x.png);
             background-repeat: no-repeat;
             background-size: auto 300px;
+            background-position: left 200px;
         }
+        
     }
 
     
