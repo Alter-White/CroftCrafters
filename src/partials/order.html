@@ -1,0 +1,71 @@
+<section class="order section" id="your-order">
+    <div class="order-background"></div>
+    <div class="order-field container">
+        <div class="order-form-send">
+            <h2 class="order-form-description"><span class="order-span">Your order</span> is our priority: Personalized approach and quality of service</h2>
+            <form class="order-form">
+                    <div class="order-form-wrapper">
+                        <label class="order-form-label visually-hidden" 
+                        for="user-name">
+                        Enter your full name
+                        </label>
+                        <input 
+                        class="order-form-field"
+                        type="text"
+                        name="user-name" 
+                        id="user-name"
+                        required 
+                        pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+"
+                        placeholder="Enter your full name"
+                        title="Olena"
+                        />
+                    </div>
+                    <div class="order-form-wrapper">
+                        <label class="order-form-label visually-hidden" 
+                        for="user-email">
+                        Enter your email
+                        </label>
+                        <input 
+                            class="order-form-field" 
+                            type="email" 
+                            name="user_email"
+                            id="user-email"
+                            required
+                            placeholder="Enter your email"/>
+                    </div>
+                    <div class="order-form-wrapper">
+                        <label class="order-form-label visually-hidden" 
+                        for="user-comment">
+                        Comments
+                        </label>
+                        <textarea
+                          class="order-form-messege"
+                          name="user-comment"
+                          id="user-comment"
+                          placeholder="Comments"
+                        ></textarea>
+                      </div>
+            </form>
+            <button class="order-form-btn" type="submit">
+                send
+                <svg class="order-form-btn-icon" width="52" height="20" >
+                    <use href="./img/icons.svg#icon-arrow"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="order-images-container">
+            <div class="order-vyshyvanka-img">
+                <img class="order-img" 
+                  srcset="
+                    ./img/order-tablet.jpg                      638w,
+                    ./img/order-tablet@2x.jpg                   1276w,
+                    ./img/order-desktop1440-1280.jpg            524w,
+                    ./img/order-desktop1440-1280@2x.jpg         1048w"
+                  sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+                  src="./img/order-tablet.jpg"
+                  alt="White vyshyvanka"
+                 />
+              </div>
+        </div>
+    </div>
+</section>
