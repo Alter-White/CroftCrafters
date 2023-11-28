@@ -50,7 +50,7 @@
           </a>
         </li>
       </ul>
-      <button class="burger-menu-btn" type="button" onclick="openNav()">
+      <button class="burger-menu-btn" type="button" data-modal-open>
         <svg class="burger-icon" width="36" height="24">
           <use href="./img/icons.svg#icon-nav"></use>
         </svg>
@@ -62,8 +62,8 @@
 
 
 <!-- CURTAIN -->
-<div class="backdrop" id="backdrop">
-  <div class="overlay" id="curtain">
+<div class="backdrop is-hidden" data-modal>
+  <div class="overlay">
   <div class="overlay-container">
     <div class="overlay-first-row">
       <address class="overlay-contacts">
@@ -71,7 +71,7 @@
           +380 (68) 443-94-26</a>
       </address>
       <button class="close-button"
-      onclick="closeNav()"  
+      data-modal-close 
       type="button">
         <svg class="close-button-icon" width="36" height="36" aria-label="modal close button">
           <use href="./img/icons.svg#icon-close"></use>
@@ -102,13 +102,18 @@
 
 
 <script>
-    function openNav() {
-      document.getElementById("backdrop").style.width = "100%";
-      document.getElementById("curtain").style.width = "100%"; 
-      }
+  (() => {
+      const refs = {
+        openModalBtn: document.querySelector("[data-modal-open]"),
+        closeModalBtn: document.querySelector("[data-modal-close]"),
+        modal: document.querySelector("[data-modal]"),
+      };
 
-      function closeNav() {
-        document.getElementById("backdrop").style.width = "0%";
-        document.getElementById("curtain").style.width = "0%";
+      refs.openModalBtn.addEventListener("click", toggleModal);
+      refs.closeModalBtn.addEventListener("click", toggleModal);
+
+      function toggleModal() {
+        refs.modal.classList.toggle("is-hidden");
       }
+    })();
 </script>
