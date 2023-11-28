@@ -15,7 +15,7 @@
     rel="stylesheet">
   
   <script type="module" crossorigin src="/CroftCrafters/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/CroftCrafters/assets/index-c68b8760.css">
+  <link rel="stylesheet" href="/CroftCrafters/assets/index-5b8ed31e.css">
 </head>
 
 <body>
@@ -288,7 +288,73 @@
     </div>
     </div>
 </section>
-    
+    <section class="order section" id="your-order">
+    <div class="order-background"></div>
+    <div class="order-field container">
+        <div class="order-form-send">
+            <h2 class="order-form-description"><span class="order-span">Your order</span> is our priority: Personalized approach and quality of service</h2>
+            <form class="order-form">
+                    <div class="order-form-wrapper">
+                        <label class="order-form-label visually-hidden" 
+                        for="user-name">
+                        Enter your full name
+                        </label>
+                        <input 
+                        class="order-form-field"
+                        type="text"
+                        name="user-name" 
+                        id="user-name"
+                        required 
+                        pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+"
+                        placeholder="Enter your full name"
+                        title="Olena"
+                        />
+                    </div>
+                    <div class="order-form-wrapper">
+                        <label class="order-form-label visually-hidden" 
+                        for="user-email">
+                        Enter your email
+                        </label>
+                        <input 
+                            class="order-form-field" 
+                            type="email" 
+                            name="user_email"
+                            id="user-email"
+                            required
+                            placeholder="Enter your email"/>
+                    </div>
+                    <div class="order-form-wrapper">
+                        <label class="order-form-label visually-hidden" 
+                        for="user-comment">
+                        Comments
+                        </label>
+                        <textarea
+                          class="order-form-messege"
+                          name="user-comment"
+                          id="user-comment"
+                          placeholder="Comments"
+                        ></textarea>
+                      </div>
+            </form>
+            <button class="order-form-btn" type="submit">
+                send
+                <svg class="order-form-btn-icon" width="52" height="20" >
+                    <use href="/CroftCrafters/assets/icons-25607ed7.svg#icon-arrow"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="order-images-container">
+            <div class="order-vyshyvanka-img">
+                <img class="order-img" 
+                  srcset="/CroftCrafters/assets/order-tablet-cd94bd40.jpg 638w, /CroftCrafters/assets/order-tablet@2x-541ed08c.jpg 1276w, /CroftCrafters/assets/order-desktop1440-1280-69e7d0ab.jpg 524w, /CroftCrafters/assets/order-desktop1440-1280@2x-18e33615.jpg 1048w"
+                  sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+                  src="/CroftCrafters/assets/order-tablet-cd94bd40.jpg"
+                  alt="White vyshyvanka"
+                 />
+              </div>
+        </div>
+    </div>
+</section>
     <section class="section-testimonials section">
   <div class="container-section-testimonials container">
     <h2 class="testimonials-title" id="testimonials">Testimonials</h2>
