@@ -3,8 +3,11 @@
 /* ==========================MOBILE STYLES==================================== */
 .page-footer {
   padding-top: 40px;
-  position: relative;
   border-top: 1px rgba(252, 249, 249, 0.1) solid;
+}
+
+.container {
+  position: relative;
 }
 
 .footer-menu {
@@ -91,8 +94,7 @@
 
   .background-image {
     background-image: url(../img/footer-background-tablet.png);
-    position: absolute;
-    height: 340px;
+    height: 370px;
     width: 160px;
     top: 0%;
     right: 0%;
