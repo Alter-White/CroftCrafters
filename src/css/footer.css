@@ -94,6 +94,7 @@
 
   .background-image {
     background-image: url(../img/footer-background-tablet.png);
+    position: absolute;
     height: 370px;
     width: 160px;
     top: 0%;
