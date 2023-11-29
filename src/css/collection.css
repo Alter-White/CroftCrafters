@@ -107,6 +107,7 @@
             background-repeat: no-repeat;
             background-position: left 270px;
             background-size: auto 177px;
+            background-attachment: local;
         
             }
 }
@@ -120,12 +121,14 @@
             column-gap: 20px;
             row-gap: 20px;
             flex-basis: auto;
+            
         }
         .vyshyvanka-background{
             background-image: url(../img/collection1-background-tablet@2x.png);
             background-repeat: no-repeat;
             background-position: left 140px;
             background-size: auto 300px;
+            background-attachment: local;
         }
 
     }
