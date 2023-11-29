@@ -2,6 +2,7 @@
 
 .header {
   padding-top: 20px;
+  padding-bottom: 24px;
 }
 
 .header-container {
@@ -256,6 +257,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
 @media screen and (min-width: 768px) {
 
+  .header {
+  padding-bottom: 34px;
+}
+
   .header-social-btn-wrapper {
     gap: 20px;
   }
@@ -272,6 +277,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
   .overlay {
     display: none;
+  }
+
+  .header {
+  padding-bottom: 27px;
   }
 
   .burger-menu-btn {
